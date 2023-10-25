@@ -1,10 +1,10 @@
 import Image from 'next/image'
-import imageImg from '../public/image.jpg'
-
+import foti from '../public/image.jpg'
+//layout='fill' objectFit='cover'
 export default function Home() {
   return (
 <>
-<Image src={imageImg} alt='/' layout='fill'  />
+<Image src={foti} alt='/' width={500} height= {500}  />
 
 </>
   )
